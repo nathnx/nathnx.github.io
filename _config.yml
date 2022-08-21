@@ -73,7 +73,7 @@ author:
     #  icon: "fab fa-fw fa-instagram"
     #  url: "https://instagram.com/"
     - label: "Linkedin"
-      icon: "fa-brands fa-linkedin"
+      icon: "fa-brands fa-linkedin-in"
       url: "https://www.linkedin.com/in/nathnn"
 
 footer:
