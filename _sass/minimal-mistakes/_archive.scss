@@ -20,7 +20,7 @@
   
   .archive__item {
     position: relative;
-    font-size: 0.85em;  // post header size on homepage
+    font-size: 0.9em;  // post header size on homepage
   
     a {
       position: relative;
@@ -45,11 +45,12 @@
   }
   
   .archive__item-title {
-    margin-bottom: 0.25em;
+    margin-bottom: 0.45em;
     font-family: $sans-serif-narrow;
     line-height: initial;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 1.2em;
   
     a[rel="permalink"]::before {
       content: '';
@@ -75,7 +76,7 @@
   
   .archive__item-excerpt {
     margin-top: 0;
-    font-size: $type-size-6;
+    font-size: 0.9em;  //$type-size-6;
   
     & + p {
       text-indent: 0;
