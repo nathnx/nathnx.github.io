@@ -38,20 +38,20 @@
   .page {
 
     @include breakpoint($large) {
-      //float: right;
-      //width: calc(100% - #{$right-sidebar-width-narrow});
-      //padding-right: $right-sidebar-width-narrow;
-      @include span(10 of 12 last);
-      @include prefix(0.5 of 12);
-      @include suffix(2 of 12);
+      float: right;
+      width: calc(100% - #{$right-sidebar-width-narrow});
+      padding-right: $right-sidebar-width-narrow;
+      //@include span(10 of 12 last);
+      //@include prefix(0.5 of 12);
+      //@include suffix(2 of 12);
     }
   
     @include breakpoint($x-large) {
-      //width: calc(100% - #{$right-sidebar-width});
-      //padding-right: $right-sidebar-width;
-      @include span(10 of 12 last);
-      @include prefix(0.5 of 12);
-      @include suffix(2 of 12);
+      width: calc(100% - #{$right-sidebar-width});
+      padding-right: $right-sidebar-width;
+      //@include span(10 of 12 last);
+      //@include prefix(0.5 of 12);
+      //@include suffix(2 of 12);
     }
   
     .page__inner-wrap {
