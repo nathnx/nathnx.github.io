@@ -101,6 +101,7 @@ defaults:
       share: false
       related: true
       breadcrumbs: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
