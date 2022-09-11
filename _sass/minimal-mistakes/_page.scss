@@ -143,7 +143,7 @@
       padding-top: 0.1rem;
       padding-bottom: 0.1rem;
       color: #d73737;
-      font-size: 0.8em;
+      font-size: 1em;
       background: $code-background-color;
       border-radius: $border-radius;
   
@@ -176,6 +176,15 @@
       padding-left: 1.25rem;
     }
   }
+
+  .page {
+    @include breakpoint($large) {
+      @include span(10 of 12 last);
+      @include prefix(0.5 of 12);
+      @include suffix(2 of 12);
+    }
+  }
+
   
   .page__hero {
     position: relative;
@@ -577,3 +586,5 @@
       }
     }
   }
+
+
