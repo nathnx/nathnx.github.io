@@ -21,7 +21,7 @@ github_username: nathnx
 minimal_mistakes_skin: "contrast"
 search: true
 header:
-  image: /assets/images/header-image.jpg
+  image: "/assets/images/header-image.jpg"
 
 # Build settings
 markdown: kramdown
