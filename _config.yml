@@ -98,7 +98,7 @@ defaults:
     values:
       layout: single
       #classes: wide  # wide page
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: false
