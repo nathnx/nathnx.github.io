@@ -51,7 +51,6 @@
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 1em;
-    text-decoration-line: none;  //remove underline from post topic
   
     a[rel="permalink"]::before {
       content: '';
@@ -60,6 +59,7 @@
       top: 0;
       right: 0;
       bottom: 0;
+      text-decoration-line: none;  //remove underline from post topic
     }
   
     a + a {
