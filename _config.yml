@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Nathaniel Netirungroj"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "ML Engineer & Data Scientist who loves data mining and building ML-powered applications."
+  bio    : "Enjoy data mining and building ML-powered applications."
   links:
     - label: "Blog"
       icon: "fas fa-fw fa-link"
