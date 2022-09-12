@@ -52,7 +52,7 @@
     text-overflow: ellipsis;
     font-size: 1em;
   
-    a {
+    a[rel="permalink"]::before {
       content: '';
       position: absolute;
       left: 0;
