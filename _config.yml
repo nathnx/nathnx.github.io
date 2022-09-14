@@ -100,11 +100,11 @@ defaults:
       #classes: wide  # wide page
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: false
       related: true
       breadcrumbs: true
-      show_date: true
+      show_date: false
   # _pages
   - scope:
       path: "_pages"
