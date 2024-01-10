@@ -1,15 +1,15 @@
 .page__taxonomy-item {
     display: inline-block;
-    margin-right: 5px;
-    margin-bottom: 8px;
-    padding: 5px 10px;
+    //margin-right: 5px;
+    margin-bottom: 10px; //8px;
+    padding: 0px 0px; //5px 10px;
     text-decoration: none;
     //border: 1px solid mix(#000, $border-color, 25%);
     //border-radius: $border-radius;
   
     &:not(:last-child)::after {
       content: ','; 
-      margin-left: 5px;
+      margin-left: 0px;
       margin-right: 5px;
       color: $border-color;
     }
